@@ -1,0 +1,181 @@
+/*.disclosure{clear:both;}*/
+body{color:#111}
+.cl{clear:both;} .tac{text-align:center;}
+.mobile-only{display:none}
+.screenReaderText{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border: 0;}
+ @media screen and (min-width: 1px) and (max-width: 991px){
+	.mobile-only{display:block!important}
+	.desktop-only{display:none!important}
+ }
+.fff50{background:url(../img/fff-50.png)}
+.fff90{background:url(../img/fff-90.png)}
+.fff95{background:url(../img/fff-95.png)}
+.main{min-height:645px;}
+.main h1, .main h2{margin:0 0 10px 0}
+.flex{display:flex;align-items:center;justify-content:center;}
+.recent-posts .date .month, article.post .post-date .month
+	{background-color: #b55132;}
+.recent-posts .date .day, article.post .post-date .day
+	{color: #b55132;}
+/*li.press-release, li.press-release:hover, li.press-release a, li.press-release a:hover{background:none;}
+li.press-release{border-left:3px solid #006ab6;padding-left:3px;margin-bottom:1px;margin-left:-5px;}
+li.press-release:hover{border-left:3px solid #b55132;}*/
+
+#dealerships{background:#eee;border:1px solid #ddd;padding:20px}
+.dealer{margin-bottom:10px}
+.dealer span{display:block}
+.dealer span.name{font-size:115%;font-weight:bold}
+
+.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+
+aside.sidebar, aside.sidebar p{color:#0368b0;text-align:left;}
+
+.toggle .article label{font-weight:600;padding:8px 0px 8px 27px}
+
+.inset-menu{padding:0 0 20px 20px}
+
+.branch-box {text-align:center;width:23%;margin:1%;float:left;min-height:265px;padding:10px;}
+.branch-box img{width:100%;height:auto;}
+.branch-box span.address::first-line{font-weight:bold;}
+
+ #disclosure .container{color:#555;padding:0 0 20px}
+
+.nav-tabs li a, .nav-tabs li a:hover{color:#000}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{color:#006ab6}
+th.invert, td.invert{background:#006ab6;color:#fff;}
+
+ul.preheader-menu{list-style-type:none;margin:5px 20px 0 0;padding:0;}
+ul.preheader-menu li{color:#eee;display:inline;padding-right:15px;}
+ul.preheader-menu li a{color:#eee}
+ul.preheader-menu li a:hover{color:#fff}
+
+div#banner-area-b {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*background-attachment:fixed;*/
+}
+
+#banner-area, #banner-area-b{min-height:350px;padding-bottom:35px}
+div#banner-area.home-equity{background-image: url(../img/banner-area-bg/home-equity.jpg);}
+div#banner-area.deposit{background-image: url(../img/banner-area-bg/deposit.jpg);}
+div#banner-area.mortgage{background-image: url(../img/banner-area-bg/mortgage.jpg);}
+div#banner-area.auto{background-image: url(../img/banner-area-bg/auto.jpg);background-position:bottom;}
+div#banner-area.personal, div#banner-area-b.personal{background-image: url(../img/banner-area-bg/personal.jpg);background-position:top;}
+div#banner-area.money-market{background-image: url(../img/banner-area-bg/architecture-10.jpg);}
+div#banner-area.personal-financial-services{background-image: url(../img/banner-area-bg/personal-financial-services.jpg);}
+
+.announcement{background:#f3f3f3;}
+.announcement .container{padding-top:20px!important}
+.announcement .alert{background:#f9f8f4}
+.announcement-level-red, .announcement-level-orange, .announcement-level-green,
+.announcement-level-blue,.announcement-level-grey,.announcement-level-black
+{padding-left:15px;border-width:0 0 0 4px}
+.announcement-level-red{border-color:#a30314}
+.announcement-level-orange{border-color:#b55132}
+.announcement-level-green{border-color:#2aa919}
+.announcement-level-blue{border-color:#006ab6}
+.announcement-level-grey{border-color:#333}
+.announcement-level-black{border-color:#000}
+
+#news .recent-posts{height:105px;}
+#news .container{padding-top:0}
+a.pnavarea:hover{color:#fff!important}
+
+.pre-header-ob-login{color:#eee;width:225px;}
+.pre-header-ob-login a{color:#fff;}
+.pre-header-ob-login #LoginName{width:180px;color:#000;}
+.pre-header-ob-login .error{background:#6C0F10;color:#fff;padding:2px;display:none}
+.pre-header-ob-login .register-forgot{width:185px;font-size:90%}
+.preheader-links > ul.preheader-menu{margin-top:13px}
+.preheader-social{margin-left:0;padding-left:0;margin-top:8px}
+
+label.checkbox, label.radio{
+	font-size:100%;
+	font-weight:normal;
+	display:inline;
+}
+
+span.form-label, legend.form-label{font-size:120%!important;font-weight:normal!important;display:block!important;margin-bottom:7px;border-bottom:none!important;}
+
+a.toggle-trigger{color:#006ab6}
+
+ @media screen and (min-width: 751px) and (max-width: 990px){
+	.branch-box{width:31%;}
+ }
+ @media screen and (min-width: 451px) and (max-width: 750px){
+	.branch-box{width:48%;}
+ }
+ @media screen and (min-width: 1px) and (max-width: 450px){
+	.branch-box{width:98%;min-height:auto;}
+	.branch-box img{max-width:450px;}
+	#news .recent-posts{clear:both;width:100%;height:auto;margin-bottom:10px}
+ }
+ @media screen and (min-width: 1px) and (max-width: 800px){
+	 .preheader-obanking-login, .preheader-links, .preheader-social{float:none;clear:both;text-align:center;margin:0 auto}
+	.preheader-links i{display:none}
+	#LoginName{padding-right:10px}
+	.preheader-links, .preheader-links .pull-right{float:none;margin:0;padding:0;text-align:center;}
+	ul.preheader-menu {margin:7px 0 7px 15px;}
+	ul.preheader-menu li{display:inline;padding:10px 7px 7px 7px;}
+	ul.preheader-menu li:first-child{padding:10px 7px 7px 0}
+	#header .header-social-icons{float:none;text-align:center}
+	#header .header-social-icons ul{margin:0;padding:0}
+	#header a{text-align:center}
+	.pre-header-ob-login{margin:0 auto}
+	.pre-header-ob-login .register-forgot{font-size:100%}
+ }
+  @media screen and (min-width: 801px) and (max-width: 1200px){
+	.preheader-obanking-login, .preheader-links{float:left}
+	.preheader-social{float:right}
+	ul.preheader-menu li{display:inline;padding:10px 0 7px 7px;}
+	#news .recent-posts{clear:both;width:100%;}
+  }
+  
+ @media screen and (min-width: 1px) and (max-width: 450px){
+	.mobile-search{width:80%;float:left;margin:0 10px 0 0;padding:0;}
+	.mobile-nav-button{width:5%;float:left;}
+	div.header-logo{margin:0 auto}
+	#banner-area{display:none!important;}
+ }
+ @media screen and (min-width: 451px) and (max-width: 991px){
+	.header-column{margin-top:50px;}
+	.header-logo{width:48%;float:left!important;}
+	.search-and-nav-button{width:48%;float:left;clear:none;}
+	.mobile-search{width:82%;margin:40px 0 0 10px;float:left}
+	.mobile-nav-button{width:5%;float:right;clear:none;margin:40px 0 0 10px}
+ }
+ 
+ @media screen and (min-width: 801px){
+ 	.pre-header-ob-login .register-forgot{margin-left:12px}
+ }
+
+@media print{	
+	*{border:none!important}
+	body{margin:auto;padding:auto;}
+	.header-top, header nav, .screenReaderText, .mobile-only, .search-and-nav-button, .mobile-nav-button, .header-nav, .no-print{display:none}
+	.header-top {border:none;}
+	a[href]:after {content:none;}
+}
+
+.promo-wrapper-mobile{display:none;}
+@media only screen and (max-width: 990px) {
+	.promo-wrapper-desktop{display:none;}
+	.promo-wrapper-mobile{width:90%;margin:5% auto;display:block;font-size:100%;background:url(../img/fff-90.png)}
+	.promo-wrapper-mobile table {}
+	.promo-wrapper-mobile table tr th{border:none;}
+	.promo-wrapper-mobile table tr, .promo-wrapper-mobile table tr th, .promo-wrapper-mobile table tr td{vertical-align:middle;text-align:center}
+	.promo-wrapper-mobile table tr th:first-child, .promo-wrapper-mobile table tr td:first-child{text-align:left}
+	.promo-wrapper-mobile table h3{padding:0;margin:0;font-size:115%;line-height:auto;}
+	.promo-wrapper-mobile table .limited-time-mobile{font-size:70%;color:#000;}
+	.promo-wrapper-mobile .apply{min-width:100px;}
+}
+
+#news a.newslink{cursor:pointer;text-decoration:none;}
+#news span.fa, #news span.glyphicon{font-size:400%;position:relative;width:60px;margin-right:20px;}
+#news span.heading-primary{display:block;font-size:125%;font-weight:bold}
+#news span.brief{display:block;color:#000;text-decoration:none;}
+
