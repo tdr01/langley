@@ -1,0 +1,45 @@
+body{font-size: 16px;}
+
+.screenReaderText{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0;}
+#testimonials-mobile{display:none;}
+div#slider-cta p{font-size: 1.8em;}
+.mobile-opportunities-button, .secondary-caption-mobile{display:none;}
+
+.benefits {font-size:100%;margin-bottom:20px;color:#000;min-height:160px;}
+.benefits ul{margin:5px;padding:0 15px;}
+.benefits ul li{width:45%;margin:0 5% 10px 0;float:left;}
+.benefits h2{font-size:120%;margin-bottom:0;font-weight:bold;color:#006ab6;line-height:auto}
+
+
+
+@media screen and (min-width: 1px) and (max-width: 1199px){
+	#slider-cta{font-size: 80%;text-align:center;}
+	#slider-cta p{margin-top:0;}
+	#emp-story-list{display:none;}
+	#testimonials-desktop{display:none;}
+	#testimonials-mobile{display:block;}
+	#testimonials-mobile .story-emp{background:#e9eff4;margin:10px;}
+	p.lead{font-size:125%;}
+}
+
+@media screen and (min-width: 1px) and (max-width: 500px){
+	.slider-home{display:none;}
+	.slider-secondary .quote{display:none;}
+	.slider-secondary .title{display:none;}
+	.secondary-caption-mobile{display:block;color:#006ab6;padding:5px 20px 10px;}
+	.secondary-caption-mobile span{font-style:italic;margin-left:5px;font-size:85%;}
+}
+
+@media screen and (min-width: 1px) and (max-width: 991px){
+	.mobile-opportunities-button{display:block;width:93%;margin:5px auto;font-size:90%;}
+	.benefits ul li{width:95%;float:none;}
+}
+
+#home-grid .row .col-sm-6{margin-bottom:20px;}
+
+.header-body .header-top .container .pre-header-links{width:300px;float:right;text-align:right;font-size:90%;padding-top:5px;color:#fff;}
+.header-body .header-top .container .pre-header-links a{color:#fff;}
+.header-body .header-top .container ul{width:200px;float:right;text-align:right;}
+
+.btn-lblue{color: #ffffff;background-color: #006ab6;font-weight:bold;}
+.btn-lblue:hover{color:#fff;}
